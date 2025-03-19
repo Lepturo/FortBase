@@ -1,6 +1,15 @@
 # FortBase
 
-## Projekt aufsetzen
+## Online Zugriff bis 18.06.2025
+
+Über den Link http://benlotharhoffma.bplaced.net/?page=Login ist bis zum 18.06.2025 ein Server Verfügbar und es wird keine lokale installation benötigt.
+
+Für eine Anmeldung mit Berechtigungen für die Nutzung der Seite, bitte die folgenden Daten verwenden:
+
+Benutzername: tester
+passwort: 123
+
+## Projekt lokal aufsetzen
 
 ### Für Windows
 
