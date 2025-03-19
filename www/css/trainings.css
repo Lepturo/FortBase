@@ -1,0 +1,183 @@
+.search-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.search_input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  width: 100%;
+  height: 30px;
+}
+
+.search_button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  height: 30px;
+}
+
+.search_button:hover {
+  background-color: #45a049;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.theme-form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  /* height: 400px; */
+  width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+}
+
+.form-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+
+.form-body-info {
+}
+
+.form-submit {
+  margin-top: 10px;
+}
+
+.form-body-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-field label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.form-field textarea {
+  height: 150px;
+  resize: none;
+}
+
+.close-btn {
+  cursor: pointer;
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: black;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-header {
+  display: flex;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  flex-direction: row;
+}
+
+.list-body {
+  max-height: calc(100vh - 300px);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 100%;
+  justify-content: start;
+  overflow-y: auto;
+}
+
+.list-row {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  border-bottom: 1px solid #f4f4f4;
+  position: relative;
+}
+
+.list-item {
+  width: 33.33%;
+  padding: 10px;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+}
+
+.add-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+}
+
+.add-btn:hover {
+  background-color: #45a049;
+}
+
+.list-btn {
+  position: absolute; /* Position absolutely within the row */
+  right: 10px; /* Align to the far right */
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}

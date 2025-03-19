@@ -1,0 +1,66 @@
+/* Datei: register.css */
+
+/* Allgemeine Stile f�r die Seite */
+.register_bodys {
+  background-color: #f4f4f4;
+}
+
+.page_subject {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form_container_NOT_IN_USE {
+  justify-content: center;
+  align-items: center;  
+  display: flex;
+  height: 400px;
+  vertical-align: middle;
+}
+
+
+/* Formular-Stile */
+.register_form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+/* Labels */
+.register_label {
+  font-size: 14px;
+  color: #333333;
+}
+
+/* Eingabefelder */
+.register_input[type="text"],
+.register_input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Buttons */
+.register_button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+}
+
+.register_button:hover {
+  background-color: #45a049;
+}

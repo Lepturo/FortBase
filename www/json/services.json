@@ -1,0 +1,9 @@
+{
+    "service_auth_path": "php/services/authService.php",
+    "service_db_path": "php/services/dbService.php",
+    "service_hash_path": "php/services/hashService.php",
+    "service_session_path": "php/services/sessionService.php",
+    "service_theme_path": "php/services/themeService.php",
+    "service_training_path": "php/services/trainingService.php",
+    "service_redirect_path": "php/services/redirectService.php"
+}

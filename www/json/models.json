@@ -1,0 +1,5 @@
+{
+    "model_theme_path": "php/models/themeModel.php",
+    "model_training_path": "php/models/trainingModel.php",
+    "model_user_path": "php/models/userModel.php"
+}

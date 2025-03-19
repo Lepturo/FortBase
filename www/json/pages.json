@@ -1,0 +1,112 @@
+{
+  "page_home": {
+    "path": "php/pages/home.php",
+    "name": "Home",
+    "subject": "Home Page",
+    "title": "Fortbase - Homepage",
+    "permissions": {
+      "role": "*"
+    }
+  },
+  "page_dashboard": {
+    "path": "php/pages/dashboard.php",
+    "name": "Dashboard",
+    "icon": "images/icons/dashboard.png",
+    "title": "FortBase - Dashboard",
+    "subject": "Dashboard",
+    "permissions": {
+      "role1": "VERIFIED",
+      "role2": "UNVERIFIED"
+    }
+  },
+  "page_Themeservicetest": {
+    "title": "FortBase - Theme service testing",
+    "subject": "Theme (Service Testing)",
+    "path": "php/pages/ThemeServiceTest.php",
+    "icon": "images/icons/themes.png",
+    "name": "ThemeServiceTest",
+    "permissions": {
+      "role": "UNVERIFIED"
+    }
+  },
+  "page_Trainingservicetest": {
+    "title": "FortBase - Trainings service testing",
+    "subject": "Trainings (Service Testing)",
+    "path": "php/pages/TrainingServiceTest.php",
+    "icon": "images/icons/trainings.png",
+    "name": "TrainingServiceTest",
+    "permissions": {
+      "role": "UNVERIFIED"
+    }
+  },
+  "page_test": {
+    "title": "FortBase - test",
+    "subject": "Hier können Komponenten getestet werden",
+    "path": "php/pages/test.php",
+    "name": "test",
+    "permissions": {
+      "role": "UNVERIFIED"
+    }
+  },
+  "page_Themes": {
+    "title": "FortBase - Themes",
+    "subject": "Themes",
+    "path": "php/pages/Themes.php",
+    "icon": "images/icons/themes.png",
+    "name": "Themes",
+    "permissions": {
+      "role": "VERIFIED"
+    }
+  },
+  "page_Trainings": {
+    "title": "FortBase - Trainings",
+    "subject": "Trainings",
+    "path": "php/pages/Trainings.php",
+    "icon": "images/icons/trainings.png",
+    "name": "Trainings",
+    "permissions": {
+      "role": "VERIFIED"
+    }
+  },
+  "page_Register": {
+    "title": "FortBase - Neues Konto erstellen",
+    "subject": "Neues Konto",
+    "path": "php/pages/register.php",
+    "icon": "images/icons/auth.png",
+    "name": "Register",
+    "permissions": {
+      "role": "UNKNOWN"
+    }
+  },
+  "page_Login": {
+    "title": "FortBase - Anmelden",
+    "subject": "Anmelden",
+    "path": "php/pages/login.php",
+    "icon": "images/icons/auth.png",
+    "name": "Login",
+    "permissions": {
+      "role": "UNKNOWN"
+    }
+  },
+  "logout": {
+    "path": "php/pages/logout.php",
+    "name": "Neuanmeldung",
+    "subject": "Neuanmeldung",
+    "title": "Fortbase - Neuanmeldung",
+    "icon": "images/icons/logout.png",
+    "permissions": {
+      "role1": "VERIFIED",
+      "role2": "UNVERIFIED"
+    }
+  },
+  "permissions": {
+    "path": "php/pages/permissions.php",
+    "name": "Berechtigungen",
+    "subject": "Berechtigungen",
+    "title": "Fortbase - Neuanmeldung",
+    "icon": "images/icons/auth.png",
+    "permissions": {
+      "role": "VERIFIED"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.success {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.error {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.warning {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  color: #856404;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.info {
+  background-color: #d0e8ff;
+  border: 1px solid #89c4f4;
+  color: #31708f;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
